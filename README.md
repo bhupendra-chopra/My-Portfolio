@@ -1,77 +1,55 @@
-# 🚀 Bhupendra Chopra — Developer Portfolio
+# Bhupendra Chopra — Developer Portfolio
 
-> Personal portfolio website built with **React + Vite**, showcasing projects, skills, experience, and contact information.
+Personal portfolio website built with **React + Vite**, showcasing projects, skills, experience, and contact information.
 
-🌐 **Live:** [bhupendrachopra.dev](#) &nbsp;|&nbsp; 📧 bhupendrachopra001@gmail.com &nbsp;|&nbsp; 📍 Jaipur, Rajasthan, India
-
----
-
-## 📸 Preview
-
-![Portfolio Preview](./src/assets/hero.png)
+📧 bhupendrachopra001@gmail.com &nbsp;|&nbsp; 📞 +91 9413966576 &nbsp;|&nbsp; 📍 Jaipur, Rajasthan, India
 
 ---
 
-## ✨ Features
+## About Me
 
-- ⚡ Lightning-fast with **Vite** + **React 18**
-- 🎨 Smooth animations via **Framer Motion**
-- 🌙 Dark-themed glassmorphism UI
-- 📱 Fully responsive across all devices
-- 📬 Contact form with **EmailJS** + **WhatsApp** integration
-- 🔁 Auto-rotating testimonials carousel
-- 🗂️ Filterable projects by category
-- 🧠 Animated skill bars with scroll reveal
-- 🧭 Sticky navbar with active section tracking
+Result-driven PHP Laravel & Full-Stack Developer with **3+ years of experience** building scalable multi-panel systems, RESTful APIs, and secure backend architectures. Successfully delivered end-to-end production applications serving thousands of users across education, food delivery, e-commerce, and NGO sectors.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
-| Framework | React 18 + Vite |
-| Styling | Tailwind CSS + shadcn/ui |
-| Animations | Framer Motion |
-| Icons | Lucide React |
-| Email | EmailJS |
-| UI Components | Radix UI |
+| Backend | PHP, Laravel |
+| Frontend | React.js, HTML5, CSS3, JavaScript (ES6+) |
+| Styling | Bootstrap, Tailwind CSS |
+| Databases | MySQL, PostgreSQL, MongoDB |
+| Tools | Git, GitHub, Postman, VS Code, Composer |
+| Cloud & Hosting | AWS, cPanel, DigitalOcean, Hostinger, VPS |
 
 ---
 
-## 📁 Project Structure
+## Professional Experience
 
-```
-src/
-├── assets/              # Project images & static files
-├── components/
-│   ├── layout/          # Navbar, Footer
-│   ├── sections/        # Hero, About, Projects, Skills, Experience, Contact...
-│   └── ui/              # Reusable UI components (shadcn/ui)
-├── hooks/               # useScrollReveal, useTheme, use-mobile
-├── lib/                 # Utilities, auth context
-└── pages/
-    └── Portfolio.jsx    # Main page
-```
+**DevTechnosys** — PHP Laravel Developer *(Dec 2025 – Present)*
+- Developed clean, maintainable full-stack code using PHP, Laravel, React.js, and Node.js
+- Built responsive frontend interfaces using React.js and Bootstrap
+- Integrated third-party REST APIs and optimized MySQL queries
 
----
+**Moksha Digitech Pvt. Ltd.** — PHP Laravel Developer *(Dec 2024 – Dec 2025)*
+- Built complex multi-panel web applications with role-based access control (RBAC)
+- Managed complete project lifecycle: requirement analysis, development, testing, and deployment
+- Developed and documented RESTful APIs consumed by mobile and web clients
 
-## 🗂️ Sections
+**Codunite Pvt. Ltd.** — Software Developer *(Dec 2023 – Nov 2024)*
+- Developed scalable, production-grade web applications using Laravel and Bootstrap
+- Integrated REST APIs with third-party services (payment gateways, SMS, email)
+- Optimized MySQL queries and database design for high-traffic applications
 
-| Section | Description |
-|---------|-------------|
-| **Hero** | Name, title, CTA buttons |
-| **About** | Summary, stats, career timeline |
-| **Projects** | 6 real-world projects with images & live links |
-| **Skills** | Animated skill bars — Frontend, Backend, Tools |
-| **Experience** | 4 professional roles with achievements |
-| **Services** | Web Dev, APIs, UI/UX, DevOps |
-| **Testimonials** | Team testimonials carousel |
-| **Contact** | EmailJS form + WhatsApp redirect |
+**BMOIT Company** — Intern & Full-Time Web Developer *(Feb 2023 – Nov 2023)*
+- Wrote clean, maintainable PHP and Laravel code following best practices
+- Designed cross-browser compatible, responsive UIs using HTML, CSS, and Bootstrap
+- Gained hands-on experience with MVC architecture and RESTful API consumption
 
 ---
 
-## 💼 Featured Projects
+## Featured Projects
 
 | Project | Category | Live |
 |---------|----------|------|
@@ -84,71 +62,33 @@ src/
 
 ---
 
-## 🚀 Getting Started
+## Education
 
-### Prerequisites
+- **MCA** — GYAN Vihar University, Jaipur
+- **BCA** — University of Technology (UOT), Jaipur
 
-- Node.js `v18+`
-- npm or yarn
+---
 
-### Installation
+## Certifications
+
+- C, C++, HTML, CSS, PHP, Laravel, Bootstrap — JICS (Jaipur Institute of Computer Studies)
+
+---
+
+## Getting Started
 
 ```bash
-# Clone the repository
 git clone https://github.com/your-username/my-portfolio.git
-
-# Navigate to project directory
 cd my-portfolio
-
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
 ---
 
-## 📬 Contact Form Setup
-
-This portfolio uses **EmailJS** for the contact form. To configure:
-
-1. Create an account at [emailjs.com](https://www.emailjs.com/)
-2. Create a service and email template
-3. Replace the credentials in `Contact.jsx`:
-
-```js
-emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form, 'YOUR_PUBLIC_KEY')
-```
-
----
-
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 👤 Author
-
-**Bhupendra Chopra**
-- 📧 [bhupendrachopra001@gmail.com](mailto:bhupendrachopra001@gmail.com)
-- 📞 +91 9413966576
-- 📍 Jaipur, Rajasthan, India
 
 ---
 
