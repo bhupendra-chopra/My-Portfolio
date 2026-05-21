@@ -29,10 +29,10 @@ export default function Contact() {
     }
 
     emailjs.send(
-        'service_x3b7aot',
-        'template_u91rpp4',
+        'service_8p73dyl',
+        'template_0xrwggo',
         form,
-        'oSuhsOGfrsWTjay3-'
+        'ure7J3q6oxHAId8Yw'
       ).then(() => {
         setSent(true);
         toast.success('Message sent successfully!');
