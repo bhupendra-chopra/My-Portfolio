@@ -16,7 +16,7 @@ const contactInfo = [
 ];
 
 export default function Contact() {
-  const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
+  const [form, setForm] = useState({ name: '', email: '', subject: '', message: '', title: '' });
   const [sent, setSent] = useState(false);
   const { ref, isInView } = useScrollReveal();
 
@@ -137,7 +137,7 @@ export default function Contact() {
                   <label className="font-body text-xs text-muted-foreground mb-1.5 block">Subject</label>
                   <Input
                     value={form.subject}
-                    onChange={(e) => setForm({ ...form, subject: e.target.value })}
+                    onChange={(e) => setForm({ ...form, subject: e.target.value, title: e.target.value })}
                     placeholder="Project Discussion"
                     className="bg-muted/50 border-border/50 focus:border-accent/50"
                   />
